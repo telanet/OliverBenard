@@ -1,3 +1,139 @@
-html{
+#navbar{
+    background-color: rgb(145, 32, 32);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+
+}
+#navbar, ul{
+    list-style: none;
+  
+
+}
+/* #navbar, ul, li{
+   
+} */
+#navbar, ul, li, a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 2px 8px;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+
+}
+ 
+
+#about{
+    background-color: rgb(16, 16, 44);
+    padding-top: 50px;
+   
+}
+#name{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+#about, h3{
+    text-align: center;
+    color: rgb(172, 41, 41);
+}
+
+
+#projects{
+    background-color: rgb(16, 16, 44);
     
 }
+#projects, h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.projects{
+    display: flex;
+    height: px;
+    border: 1px solid #444;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+}
+.flex{
+    width: 300px;
+    background-color: black;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    text-align: center;
+}
+.project1{
+    order: 1;
+}
+.project2{
+    order: 2;
+    
+}
+.project3{
+    order: 3;
+
+
+}
+button{
+    background-color: rgb(7, 7, 26);
+    color: rgb(255, 255, 255);
+    width: 300px;
+}
+.btn{
+    text-align: center;
+    padding-top: 50px;
+
+}
+#contact{
+    background-color: rgb(2, 5, 14);
+    color: rgb(245, 239, 239);
+    text-align: center;
+    width: 100%;
+   
+}
+#contact, h1{
+    text-decoration: none;
+    text-align: center;
+}
+#contact, h3{
+    text-align: center;
+    
+}
+/* #contact, ul, li{
+    
+} */
+#contact, ul, li, a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 2px 8px;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-top: 3px solid rgb(236, 8, 8);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+ 
+
+}
+
+
